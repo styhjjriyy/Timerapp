@@ -4,7 +4,7 @@ A simple and clean Android focus timer application built using Kotlin and Jetpac
 
 ## App Screenshot
 
-![Focus Timer App](screenshots/timer.png)
+![Focus Timer App](screenshotstimer.png)
 
 ## About the App
 
