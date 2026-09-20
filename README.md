@@ -1,63 +1,65 @@
 # Focus Timer App
 
-A simple and clean Android timer application built using Kotlin and Jetpack Compose.
+A simple and clean Android focus timer application built using Kotlin and Jetpack Compose.
+
+## App Screenshot
+
+![Focus Timer App](screenshots/timer.png)
 
 ## About the App
 
-Focus Timer is a simple productivity app that helps users focus on a task for a selected amount of time. 
-The user can start, pause, reset, and change the timer duration using the quick duration options.
+Focus Timer is a simple productivity app that helps users focus on their tasks for a selected amount of time.
+
+The app provides a countdown timer with a circular progress indicator and quick duration options. Users can start, pause, reset, or change the timer duration.
 
 ## Features
 
-- Start and pause the timer
+- Start the timer
+- Pause the timer
 - Reset the timer
-- Quick timer durations:
-  - 5 minutes
-  - 15 minutes
-  - 25 minutes
+- Quick duration selection
+- 5-minute timer
+- 15-minute timer
+- 25-minute timer
 - Circular progress indicator
-- Shows remaining time in minutes and seconds
-- Displays the current timer status
-- Simple dark-themed user interface
-- Responsive Compose-based UI
-
-## Technologies Used
-
-- Kotlin
-- Android Studio
-- Jetpack Compose
-- Material 3
-- Kotlin Coroutines
+- Displays remaining minutes and seconds
+- Shows timer status
+- Dark-themed user interface
+- Simple and easy-to-use design
 
 ## How It Works
 
-When the app starts, the timer is set to 25 minutes.
+When the application starts, the timer is set to 25 minutes.
 
 The user can:
 
 1. Press **START TIMER** to start the countdown.
 2. Press **PAUSE TIMER** to pause the countdown.
-3. Press **RESET** to reset the timer to the selected duration.
-4. Select **5 MIN**, **15 MIN**, or **25 MIN** to change the timer duration.
+3. Press **RESET** to reset the timer.
+4. Select **5 MIN**, **15 MIN**, or **25 MIN** to choose a different duration.
 
-The circular progress indicator shows the remaining time visually.
+The circular progress indicator changes as the remaining time decreases.
+
+When the timer reaches zero, it automatically stops.
+
+## Technologies Used
+
+- **Kotlin**
+- **Android Studio**
+- **Jetpack Compose**
+- **Material 3**
+- **Kotlin Coroutines**
 
 ## Project Structure
 
 The main timer functionality is implemented in:
 
-`MainActivity.kt`
-
-The app uses Jetpack Compose to create the user interface.
-
-## Purpose
-
-This project was developed as an Android application practice project to learn Kotlin, Jetpack Compose, UI design, state management, and timer functionality.
-
-## Current Status
-
-Completed basic timer functionality.
-
-## Author
-
-Developed as an Android Studio project.
+```text
+app/
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    └── timerapp2/
+                        └── MainActivity.kt
